@@ -1,0 +1,53 @@
+@import './reset/reset';
+@import './header/header';
+@import './nav/nav';
+@import './hero/hero';
+@import './about-me/about-me';
+@import './skills/skills';
+@import './hobbies/hobbies';	
+@import './formacion/formacion';
+@import './experiencia/experiencia';
+@import './contacto/contacto';
+@import './footer/footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+$color-azulGris: rgb(41, 57, 79);
+
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 50px;
+  
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #29394f ;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #29394f;
+    border-radius: 0px;
+    border: 3px outset #2e4056;
+  }
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+body{
+  background-color: #D0DEE4;
+}
+
+// @media screen and (max-width: 768px) {
+//   html{
+//     scroll-padding: auto;
+//   }
+// }
+
